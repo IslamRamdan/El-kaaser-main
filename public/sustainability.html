@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="ar" dir="rtl" id="main-html">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>الاستدامة | الكاسر القابضة</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
+        <style>
+            .lang-section {
+                display: none;
+            }
+            .lang-section.active {
+                display: block;
+            }
+        </style>
+    </head>
+    <body class="bg-light" id="main-body">
+        <div id="ar-version" class="lang-section active">
+            <header class="main-header">
+                <div class="container nav-wrap">
+                    <div
+                        class="brand"
+                        onclick="location.href = '/'"
+                        style="cursor: pointer"
+                    >
+                        <img
+                            src="images/logo.png"
+                            alt="الكاسر"
+                            class="main-logo"
+                        />
+                        <div class="brand-text-container">
+                            <span class="company-name">الكاسر القابضة</span>
+                            <span class="company-sub">AL KAASER HOLDING</span>
+                        </div>
+                    </div>
+                    <div class="menu-toggle" onclick="toggleMobileMenu()">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <nav class="main-nav">
+                        <ul class="nav-menu">
+                            <li><a href="/">الرئيسية</a></li>
+                            <li><a href="about.html">عن المجموعة</a></li>
+                            <li>
+                                <a
+                                    href="history.html"
+                                    style="color: var(--accent)"
+                                    >قيمنا وتاريخنا</a
+                                >
+                            </li>
+                            <li><a href="leadership.html">مجلس الإدارة</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div id="side-nav" class="mobile-sidebar">
+                <div class="sidebar-header">
+                    <img src="images/logo.png" alt="Logo" width="50" />
+                    <i class="fas fa-times" onclick="toggleMobileMenu()"></i>
+                </div>
+                <ul class="sidebar-links">
+                    <li><a href="/">الرئيسية</a></li>
+                    <li><a href="about.html">عن المجموعة</a></li>
+                    <li><a href="history.html">قيمنا وتاريخنا</a></li>
+                    <li><a href="leadership.html">مجلس الإدارة</a></li>
+                    <li><a href="sustainability.html">الاستدامة</a></li>
+                </ul>
+            </div>
+            <div
+                id="overlay"
+                class="menu-overlay"
+                onclick="toggleMobileMenu()"
+            ></div>
+            <section class="page-title-section sustainability-hero">
+                <div class="container">
+                    <nav class="breadcrumb">
+                        <a href="/">الرئيسية</a> / <span>الاستدامة</span>
+                    </nav>
+                    <h1>الاستدامة والمسؤولية</h1>
+                    <p>
+                        نلتزم في الكاسر القابضة ببناء مستقبل مستدام يوازن بين
+                        النمو الاقتصادي، الأثر البيئي، والقيم الأخلاقية.
+                    </p>
+                </div>
+            </section>
+            <main class="container section-padding">
+                <div class="sus-row reveal">
+                    <div class="sus-text">
+                        <div class="sus-icon-title">
+                            <i class="fas fa-handshake"></i>
+                            <h2>الإدارة ذات المنفعة المتبادلة</h2>
+                        </div>
+                        <p>
+                            لتحقيق النمو المتبادل مع الشركاء والأطراف التجارية
+                            المعنية، تُنظّم الكــاسر القابضــة إدارة سلسلة
+                            التوريد المستدامة، وتُطبّق نظامًا للتعايش المربح
+                            للجميع مع الشركات الشريكة.
+                        </p>
+                        <p>
+                            ندعم مجالات التمويل والتكنولوجيا والتعليم، ونُوسّع
+                            قنوات التواصل التي يُمكننا من خلالها جمع آراء
+                            الشركات الشريكة، ونُعزّز الحوافز للشركات الشريكة
+                            المتميزة.
+                        </p>
+                        <div class="highlight-info">
+                            <p>
+                                أعلنت الكــاســر القابضــة لتنمية الصادرات (HDC)
+                                عن إعلان التجارة العادلة، وأبرمت بروتوكولًا
+                                للتجارة العادلة، مع تعزيز سياسات الحوكمة لدمج
+                                هذه الثقافة في جميع أعمالنا.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sus-img">
+                        <img
+                            src="images/اجتماع عمل إماراتي حديث.png"
+                            alt="Mutual Benefit"
+                        />
+                    </div>
+                </div>
+                <div class="sus-row reverse reveal">
+                    <div class="sus-text">
+                        <div class="sus-icon-title">
+                            <i class="fas fa-shield-alt"></i>
+                            <h2>الإدارة الأخلاقية</h2>
+                        </div>
+                        <p>
+                            تُولي الــكاسر القابــضــه الإدارة الأخلاقية أهمية
+                            قصوى. يُحدد معيار الحكم لجميع المهام وفقًا لميثاق
+                            الأخلاقيات، ونحن نمارس الإدارة الأخلاقية حيث نعمل
+                            بطريقة شفافة وعادلة ومعقولة.
+                        </p>
+                        <p>
+                            يمنع نظام الامتثال لدينا أي شخص من انتهاك القوانين
+                            واللوائح، أو التعارض مع التوقعات الأخلاقية للمجتمع.
+                            سنكتشف مبكرًا أي مخالفة محتملة ونتعامل معها بفعالية.
+                        </p>
+                        <ul class="check-list">
+                            <li>
+                                <i class="fas fa-check-circle"></i> الالتزام
+                                بميثاق الأخلاقيات المهنية
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i> نظام تشغيل
+                                الامتثال المتكامل
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i> تعزيز ثقافة
+                                المسؤولية الاجتماعية
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sus-img">
+                        <img
+                            src="images/مكتب مؤسسي مع عرض للمدينة.png"
+                            alt="Ethical Management"
+                        />
+                    </div>
+                </div>
+                <div class="sus-row reveal">
+                    <div class="sus-text">
+                        <div class="sus-icon-title">
+                            <i class="fas fa-leaf"></i>
+                            <h2>الإدارة البيئية</h2>
+                        </div>
+                        <p>
+                            لتحقيق نمو مستدام يُسهم في التنمية المتناغمة للأفراد
+                            والمجتمع والبيئة، نساهم في الحد من انبعاثات غازات
+                            الاحتباس الحراري وإعادة تدوير الموارد من خلال مشاريع
+                            تجارية صديقة للبيئة وتطوير تكنولوجي.
+                        </p>
+                        <p>
+                            نوفر بيئة معيشية آمنة من خلال منع المشاكل البيئية
+                            أثناء أعمال البناء، وإدارة المواقع بكفاءة لضمان عدم
+                            تضرر المنطقة المحيطة، واستخدام مواد منشآت صديقة
+                            للبيئة.
+                        </p>
+                        <div class="promise-box">
+                            <p>
+                                <i class="fas fa-star"></i> نعد بمواصلة
+                                مسؤولياتنا الاجتماعية من خلال الالتزام باللوائح
+                                البيئية والإفصاح الشفاف عن نتائج الإدارة
+                                البيئية.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sus-img">
+                        <img
+                            src="images/مشروع الطاقة المتجددة في الصحراء.png"
+                            alt="Environmental Management"
+                        />
+                    </div>
+                </div>
+            </main>
+            <footer class="main-footer">
+                <div class="container footer-grid-wrap">
+                    <div class="footer-column">
+                        <h4>المركز الإعلامي</h4>
+                        <ul>
+                            <li><a href="#">البيانات الصحفية</a></li>
+                            <li><a href="#">مكتبة الصور والفيديو</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>روابط سريعة</h4>
+                        <ul>
+                            <li><a href="#">شركاؤنا</a></li>
+                            <li><a href="#">الموردون</a></li>
+                            <li><a href="#">تنبيه من الاحتيال</a></li>
+                            <li><a href="privacy.html">سياسة الخصوصية</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>استكشف الكاسر</h4>
+                        <ul>
+                            <li><a href="about.html">عن المجموعة</a></li>
+                            <li><a href="history.html">قيمنا وتاريخنا</a></li>
+                            <li><a href="leadership.html">مجلس الإدارة</a></li>
+                            <li>
+                                <a href="sustainability.html"
+                                    >الاستدامة والتحول</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-column brand-info-col">
+                        <img
+                            src="images/logo.png"
+                            alt="Al Kaaser Logo"
+                            class="footer-logo"
+                        />
+                        <h3>شركة الكاسر القابضة</h3>
+                        <div class="contact-details">
+                            <p>
+                                <i class="fas fa-envelope"></i> info@alkaaser.ae
+                            </p>
+                            <p>
+                                <i class="fas fa-map-marker-alt"></i> أبوظبي،
+                                الإمارات العربية المتحدة
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom-bar">
+                    <div class="container flex-between mobile-column">
+                        <p>© 2024 الكاسر القابضة. جميع الحقوق محفوظة.</p>
+                        <div class="social-icons-wrap">
+                            <a href="#" class="social-circle"
+                                ><i class="fab fa-facebook-f"></i
+                            ></a>
+                            <a href="#" class="social-circle"
+                                ><i class="fab fa-instagram"></i
+                            ></a>
+                            <a href="#" class="social-circle"
+                                ><i class="fab fa-twitter"></i
+                            ></a>
+                            <a href="#" class="social-circle"
+                                ><i class="fab fa-linkedin-in"></i
+                            ></a>
+                            <a href="#" class="social-circle"
+                                ><i class="fab fa-youtube"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <a
+                href="javascript:void(0)"
+                onclick="switchLang('en')"
+                class="lang-float-btn"
+                title="Switch to English"
+            >
+                <i class="fas fa-language"></i>
+                <span>EN</span>
+            </a>
+        </div>
+        <div id="en-version" class="lang-section">
+            <header class="main-header">
+                <div class="container nav-wrap">
+                    <div
+                        class="brand"
+                        onclick="location.href = 'index-en.html'"
+                        style="cursor: pointer"
+                    >
+                        <img
+                            src="images/logo.png"
+                            alt="Al Kaaser"
+                            class="main-logo"
+                        />
+                        <div class="brand-text-container">
+                            <span class="company-name">Al Kaaser Holding</span>
+                            <span class="company-sub">AL KAASER HOLDING</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-toggle" onclick="toggleMobileMenu()">
+                        <i class="fas fa-bars"></i>
+                    </div>
+
+                    <nav class="main-nav">
+                        <ul class="nav-menu">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="about.html">About the Group</a></li>
+                            <li><a href="history.html">Values & History</a></li>
+                            <li>
+                                <a href="leadership.html">Board of Directors</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div id="side-nav" class="mobile-sidebar">
+                <div class="sidebar-header">
+                    <img src="images/logo.png" alt="Logo" width="50" />
+                    <i class="fas fa-times" onclick="toggleMobileMenu()"></i>
+                </div>
+                <ul class="sidebar-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about.html">About the Group</a></li>
+                    <li><a href="history.html">Values & History</a></li>
+                    <li><a href="leadership.html">Board of Directors</a></li>
+                    <li><a href="sustainability.html">Sustainability</a></li>
+                </ul>
+            </div>
+            <div
+                id="overlay"
+                class="menu-overlay"
+                onclick="toggleMobileMenu()"
+            ></div>
+            <section class="page-title-section sustainability-hero">
+                <div class="container">
+                    <nav class="breadcrumb">
+                        <a href="/">Home</a> / <span>Sustainability</span>
+                    </nav>
+                    <h1>Sustainability & Responsibility</h1>
+                    <p>
+                        At Al Kaaser Holding, we are committed to building a
+                        sustainable future that balances economic growth,
+                        environmental impact, and ethical values.
+                    </p>
+                </div>
+            </section>
+            <main class="container section-padding">
+                <div class="sus-row reveal">
+                    <div class="sus-text">
+                        <div class="sus-icon-title">
+                            <i class="fas fa-handshake"></i>
+                            <h2>Mutually Beneficial Management</h2>
+                        </div>
+                        <p>
+                            To achieve mutual growth with partners and business
+                            stakeholders, Al Kaaser Holding organizes
+                            sustainable supply chain management and implements a
+                            win-win coexistence system with partner companies.
+                        </p>
+                        <p>
+                            We support the fields of finance, technology, and
+                            education, expanding communication channels to
+                            gather feedback from partners and enhancing
+                            incentives for outstanding partner companies.
+                        </p>
+                        <div class="highlight-info">
+                            <p>
+                                Al Kaaser Holding for Export Development (HDC)
+                                has announced a Fair Trade Declaration and
+                                entered into a Fair Trade Protocol, while
+                                strengthening governance policies to integrate
+                                this culture into all our operations.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sus-img">
+                        <img
+                            src="images/اجتماع عمل إماراتي حديث.png"
+                            alt="Mutual Benefit"
+                        />
+                    </div>
+                </div>
+                <div class="sus-row reverse reveal">
+                    <div class="sus-text">
+                        <div class="sus-icon-title">
+                            <i class="fas fa-shield-alt"></i>
+                            <h2>Ethical Management</h2>
+                        </div>
+                        <p>
+                            Al Kaaser Holding places the highest importance on
+                            ethical management. Judgment criteria for all tasks
+                            are defined according to the Code of Ethics, and we
+                            practice ethical management by operating in a
+                            transparent, fair, and reasonable manner.
+                        </p>
+                        <p>
+                            Our compliance system prevents anyone from violating
+                            laws and regulations or conflicting with the ethical
+                            expectations of society. We proactively detect any
+                            potential violations and deal with them effectively.
+                        </p>
+                        <ul class="check-list">
+                            <li>
+                                <i class="fas fa-check-circle"></i> Commitment
+                                to the Professional Code of Ethics
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i> Integrated
+                                Compliance Operating System
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i> Promoting a
+                                culture of Social Responsibility
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sus-img">
+                        <img
+                            src="images/مكتب مؤسسي مع عرض للمدينة.png"
+                            alt="Ethical Management"
+                        />
+                    </div>
+                </div>
+                <div class="sus-row reveal">
+                    <div class="sus-text">
+                        <div class="sus-icon-title">
+                            <i class="fas fa-leaf"></i>
+                            <h2>Environmental Management</h2>
+                        </div>
+                        <p>
+                            To achieve sustainable growth that contributes to
+                            the harmonious development of individuals, society,
+                            and the environment, we contribute to reducing
+                            greenhouse gas emissions and resource recycling
+                            through eco-friendly business projects and
+                            technological development.
+                        </p>
+                        <p>
+                            We provide a safe living environment by preventing
+                            environmental problems during construction, managing
+                            sites efficiently to ensure no damage to the
+                            surrounding area, and using eco-friendly facility
+                            materials.
+                        </p>
+                        <div class="promise-box">
+                            <p>
+                                <i class="fas fa-star"></i> We promise to
+                                continue our social responsibilities by adhering
+                                to environmental regulations and ensuring
+                                transparent disclosure of environmental
+                                management results.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sus-img">
+                        <img
+                            src="images/مشروع الطاقة المتجددة في الصحراء.png"
+                            alt="Environmental Management"
+                        />
+                    </div>
+                </div>
+            </main>
+            <footer class="main-footer">
+                <div class="container footer-grid-wrap">
+                    <div class="footer-column">
+                        <h4>Media Center</h4>
+                        <ul>
+                            <li><a href="#">Press Releases</a></li>
+                            <li><a href="#">Image & Video Library</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="partners.html">Our Partners</a></li>
+                            <li><a href="#">Suppliers</a></li>
+                            <li><a href="#">Fraud Alert</a></li>
+                            <li><a href="privacy.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Explore Al Kaaser</h4>
+                        <ul>
+                            <li><a href="about.html">About the Group</a></li>
+                            <li><a href="history.html">Values & History</a></li>
+                            <li>
+                                <a href="leadership.html">Board of Directors</a>
+                            </li>
+                            <li>
+                                <a href="sustainability.html"
+                                    >Sustainability & Transformation</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-column brand-info-col">
+                        <img
+                            src="images/logo.png"
+                            alt="Al Kaaser Logo"
+                            class="footer-logo"
+                        />
+                        <h3>Al Kaaser Holding Company</h3>
+                        <div class="contact-details">
+                            <p>
+                                <i class="fas fa-envelope"></i> info@alkaaser.ae
+                            </p>
+                            <p>
+                                <i class="fas fa-map-marker-alt"></i> Abu Dhabi,
+                                United Arab Emirates
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom-bar">
+                    <div class="container flex-between mobile-column">
+                        <p>© 2024 Al Kaaser Holding. All rights reserved.</p>
+                        <div class="social-icons-wrap">
+                            <a href="#" class="social-circle"
+                                ><i class="fab fa-facebook-f"></i
+                            ></a>
+                            <a href="#" class="social-circle"
+                                ><i class="fab fa-instagram"></i
+                            ></a>
+                            <a href="#" class="social-circle"
+                                ><i class="fab fa-twitter"></i
+                            ></a>
+                            <a href="#" class="social-circle"
+                                ><i class="fab fa-linkedin-in"></i
+                            ></a>
+                            <a href="#" class="social-circle"
+                                ><i class="fab fa-youtube"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <a
+                href="javascript:void(0)"
+                onclick="switchLang('ar')"
+                class="lang-float-btn"
+                title="التحويل للعربية"
+            >
+                <i class="fas fa-language"></i>
+                <span>AR</span>
+            </a>
+        </div>
+        <script>
+            function switchLang(lang) {
+                const body = document.getElementById("main-body");
+                const html = document.getElementById("main-html");
+                const arSection = document.getElementById("ar-version");
+                const enSection = document.getElementById("en-version");
+
+                if (lang === "en") {
+                    arSection.classList.remove("active");
+                    enSection.classList.add("active");
+                    html.setAttribute("lang", "en");
+                    html.setAttribute("dir", "ltr");
+                    body.classList.add("en-version");
+                } else {
+                    enSection.classList.remove("active");
+                    arSection.classList.add("active");
+                    html.setAttribute("lang", "ar");
+                    html.setAttribute("dir", "rtl");
+                    body.classList.remove("en-version");
+                }
+                window.scrollTo(0, 0);
+            }
+        </script>
+        <script src="script.js"></script>
+    </body>
+</html>
